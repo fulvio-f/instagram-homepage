@@ -1,0 +1,17 @@
+body{
+    background-color: #FAFAFA;
+}
+
+.or{
+    width: 15%; 
+    text-align: center; 
+    border-bottom: 1px solid #B9B9B9; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+
+.or span{
+    color: #8E8E8E;
+    background-color: #FAFAFA;
+    padding:0 10px; 
+}
