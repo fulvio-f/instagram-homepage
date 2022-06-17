@@ -16,29 +16,38 @@
         <div class="instagram-access">
             <div class="instagram-login">
                 <img id="instagram-logo" src="images/instagram-logo.png" alt="Instagram Logo">
-                <input class="input-box" type="text" placeholder="Phone number, username, or email" name="uname" required>
-                <input class="input-box" type="password" placeholder="Password" name="psw" required>
-                <button class="login" type="submit">Log In</button>
+                <div class="input-boxes">
+                    <input class="input-box" type="text" placeholder="Phone number, username, or email" name="uname" required>
+                    <input class="input-box" type="password" placeholder="Password" name="psw" required>
+                </div>
+                <button id="login" type="submit">Log In</button>
                 <div class="or">
                     <span>OR</span>
                 </div>
-                <div class="facebook-login">
+                <button class="facebook-login">
                     <img id="facebook-logo" src="images/facebook-logo.png" alt="Facebook Logo">
                     <span>Log in with Facebook</span>
-                </div>
+                </button>
                 <div class="forgot-password">
-                    <span>Forgot password?</span>
+                    <a id="forgot-link" href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a>
                 </div>
             </div>
             <div class="instagram-signup">
-                <span>Don't have an account? <a href="https://www.instagram.com/accounts/emailsignup/">Sign up</a></span>
+                <span>Don't have an account? <a id="email-signup" href="https://www.instagram.com/accounts/emailsignup/">Sign up</a></span>
             </div>
             <div class="get-app">
-                <img id="apple-button" src="images/apple-store.png" alt="Apple Store Button">
-                <img id="playstore-button" src="images/play-store.png" alt="Play Store Button">
-                </ul>
+                <span>Get the app.</span>
+                <div class="get-buttons">
+                    <button id="apple-button">
+                        <img id="apple-img" src="images/apple-store.png" alt="Apple Store Button">
+                    </button>
+                    <button id="playstore-button">
+                            <img id="playstore-img" src="images/play-store.png" alt="Play Store Button">
+                    </button>
+                </div>
             </div>
         </div>
+    </div>
         <footer>
             <div class="links">
                 
