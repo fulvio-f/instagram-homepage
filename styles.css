@@ -189,3 +189,24 @@ body {
     height: 16px;
     margin-right: 8px;
 }
+
+#made-by {
+    text-decoration: none;
+}
+
+#made-by, #made-by:visited, #made-by:hover, #made-by:active {
+    color: inherit;
+  }
+
+.my-github {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-family: Garamond, serif;
+    font-weight: bold;
+}
+
+#github-logo {
+    height: 16px;
+    margin-right: 8px;
+}
